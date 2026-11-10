@@ -93,6 +93,7 @@ const remix = {
 const android = {
   client: { clientName: "ANDROID_MUSIC", clientVersion: "7.21.50", androidSdkVersion: 34 },
   headers: { "user-agent": "com.google.android.apps.youtube.music/7.21.50 (Linux; U; Android 14) gzip" },
+  anonymous: true,
 };
 
 // YouTube's app for the Vision Pro, which is given audio at addresses that need
